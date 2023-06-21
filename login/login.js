@@ -9,3 +9,8 @@ function login(username, password, flag) {
 function logout() {
     return true;
 }
+
+function authenticate() {
+    login()
+    logout()
+}
