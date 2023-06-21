@@ -3,5 +3,9 @@ function login(username, password, flag) {
     if(username !== "" && password !== null && flag) {
         return true
     }
-    return false
+    return false;
+}
+
+function logout() {
+    return true;
 }
